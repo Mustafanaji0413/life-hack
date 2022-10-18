@@ -9,4 +9,19 @@
 body {
     font-family: Michroma, sans-serif;
     font-weight: 350;
+    color: #3a3a3a;
+}
+
+/* Heading and logo*/
+
+h1, h2 {
+   font-family: nato, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #252525; 
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
