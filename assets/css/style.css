@@ -58,11 +58,20 @@ h1, h2 {
 
 /* hero image*/
 
-#hero-image {
-    height: 800px; 
+#hero-outer {
+    height: 600px; 
     width: 100%;
+    overflow: hidden;
+}
+
+
+#hero-image {
+    height: 600px; 
+    width: 55%;
     background-image: url("../images/hero-image.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+    
