@@ -105,17 +105,24 @@ body {
 
     .row-one {
         float: left;
-        width: 33%;
+        width: 30%;
+        padding: 15px;
+    }
+    .row-two {
+        float: left;
+        width: 30%;
         padding: 15px;
     }
 
-    #kitchen-hacks div {
+
+
+    #kitchen-hacks-two div {
         width: 30%;
         height: 10px;
         text-align: center;
-        
-
     }
+    
+    
 
     
 
