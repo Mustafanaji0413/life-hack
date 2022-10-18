@@ -13,17 +13,22 @@ body {
 }
 
 /* Heading and logo*/
+ 
 
-h1, h2 {
+
+ h1, h2 {
    font-family: nato, sans-serif;
    text-transform: uppercase;
    letter-spacing: 2px;
+   font-size: 180%;
+   text-align: center;
    color: #252525; 
 }
 
 #logo {
-    float: left;
+     float: left;
     font-size: 250%;
+    margin-left: 30px;
 }
 
 /*Nav links*/
@@ -65,12 +70,6 @@ h1, h2 {
 }
 
 
-#cover-text, #cover-text h2, #cover-text p {
-    color: rgb(13, 2, 2);
-    letter-spacing: 1px;
-    text-align: center;
-
-}
 
 #hero-image {
     height: 600px; 
