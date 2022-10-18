@@ -100,3 +100,24 @@ body {
 
         position: absolute;
     }
+ 
+    /* Kitchen Hacks*/
+
+    .row-one {
+        float: left;
+        width: 33%;
+        padding: 15px;
+    }
+
+    #kitchen-hacks div {
+        width: 30%;
+        height: 10px;
+        text-align: center;
+        
+
+    }
+
+    
+
+
+   
