@@ -126,6 +126,7 @@ body {
         text-align: center;
         margin-top: 30px;
         border: solid black;
+        border-radius: 10px;
     }
 
     #kitchen-hacks p {
@@ -139,9 +140,34 @@ body {
         
     }
     
-    
+     /* Bathroom Hacks*/
+        
+     #bathroom-hacks {
+        margin-top: 72%;
+     }
 
-    
+     #bathroom-hacks h2 {
+        text-align: center;
+        margin-top: 30px;
+        border: solid black;
+        border-radius: 10px;
+     }
 
 
-   
+     .bathroom-row-one {
+        float: left;
+        width: 30%;
+        padding: 15px;
+        text-align: center;
+     }
+     .bathroom-row-two {
+        float: left;
+        width: 30%;
+        padding: 15px;
+        text-align: center;
+     }
+
+        #bathroom-hacks p {
+            margin-top: 5px;
+            border: solid black;
+        }
