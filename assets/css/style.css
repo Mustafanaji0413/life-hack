@@ -175,6 +175,30 @@ body {
             border: solid black;
         }
 
+          /* form */
+
+       #get-in-touch {
+        text-align: center;
+        
+       }
+    
+
+            .form {
+                width: 500px;
+                height: 300px;
+                padding-top: 40px;
+                padding-left: 10px;
+
+                bottom: 200px;
+                right: 100px;
+                background-color: rgb(84, 84, 84);
+
+                position: absolute;
+               
+
+            
+        }
+
         /*footer*/
 
         footer {
@@ -196,4 +220,4 @@ body {
             color: #3a3a3a;
         }
 
-       
+      
