@@ -100,10 +100,6 @@ body {
 
         position: absolute;
     }
- 
-    /* Kitchen Hacks*/
-
-  
 
             /* submit button*/
 
@@ -121,15 +117,24 @@ body {
             }
 
             /*hacks*/
+
+            .flex-div > div {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: space-between;
+                
+            }
+
+            
+            /*kitchen hacks*/
             #kitchen-hacks {
                 padding-top: 80px;
             }
         
             .row-one {
-                float: left;
-                width: 30%;
-                padding: 0px 20px 0px 25px;
-                text-align: center;
+                width: 100%;
+                
             }
         
             #kitchen-hacks h2 {
@@ -141,6 +146,8 @@ body {
             }
         
             #kitchen-hacks p {
+                height: auto;
+                width: 54%;
                 margin-top: 5px;
                 margin-bottom: 50px;
                 border: solid black;
@@ -152,15 +159,13 @@ body {
             }
         
             .bathroom-row-one {
-                float: left;
-                width: 30%;
-                padding: 0px 20px 0px 25px;
+                width: 100%;
                 text-align: center;
             }
         
             #bathroom-hacks h2 {
                 text-align: center;
-                margin-top: 900px;
+                margin-top: 70px;
                 margin-bottom: 20px;
                 border: solid black;
                 border-radius: 10px;
@@ -180,15 +185,14 @@ body {
             }
         
             .bedroom-row-one {
-                float: left;
-                width: 30%;
+                width: 100%;
                 padding: 0px 20px 0px 25px;
                 text-align: center;
             }
         
             #bedroom-hacks h2 {
                 text-align: center;
-                margin-top: 850px;
+                margin-top: 20px;
                 margin-bottom: 20px;
                 border: solid black;
                 border-radius: 10px;
@@ -264,7 +268,7 @@ body {
         /* Media queries*/
 
         @media screen and (max-width: 1200px) {
-            #hacks-section {
+            .hacks-div {
                 width: 65%;
                 height: 1200px;
                 margin: 0 auto;
@@ -273,27 +277,27 @@ body {
             .bathroom-row-one, .bedroom-row-one, .row-one {
                 padding: 10px 0;
                 margin: 10px 50px 20px 60px;
-                float: left;
+                
             }
         }
 
        /* @media screen and (max-width: 1390px) {
 
-            #hacks-section {
+            #hacks-div {
                 clear: both;
                 line-height: 0;
             }
             
-            #hacks-section > img {
+            #hacks-div > img {
                 max-width: 30%;
             }
         } */
 
-        /*Medium size screen 700px*/
+        /*Medium size screen 950px*/
+        
         @media screen and (max-width: 950px) {
             #menu {
                 clear: left;
-                float: left;
                 margin-left: 30px;
                 margin-bottom: 20px;
                 line-height: 25px;
