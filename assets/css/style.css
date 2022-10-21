@@ -23,6 +23,7 @@ header {
 
 #menu {
     display: flex;
+    flex-direction: row-reverse;
 }
 
 #menu li {
@@ -58,8 +59,7 @@ h2 {
    
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -110,7 +110,7 @@ h2 {
     padding-top: 40px;
     padding-left: 30px;
 
-    background-color: rgb(167, 221, 242);
+    background-color: rgb(167, 221, 242, 0.7);
 
     bottom: 220px;
     right: 5%;
