@@ -122,13 +122,12 @@ body {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                align-content: space-between;
                 
             }
 
             
-            /*kitchen hacks*/
-            #kitchen-hacks {
+            /*hacks*/
+            .hacks {
                 padding-top: 80px;
             }
         
@@ -137,7 +136,7 @@ body {
                 
             }
         
-            #kitchen-hacks h2 {
+            .hacks-h2 {
                 text-align: center;
                 margin-bottom: 15px;
                 border: solid black;
@@ -145,7 +144,8 @@ body {
                 
             }
         
-            #kitchen-hacks p {
+
+            .hacks-p {
                 height: auto;
                 width: 54%;
                 margin-top: 5px;
@@ -153,57 +153,7 @@ body {
                 border: solid black;
             }
         
-             /* Bathroom hacks */
-            #bathroom-hacks {
-                padding-top: 80px;
-            }
-        
-            .bathroom-row-one {
-                width: 100%;
-                text-align: center;
-            }
-        
-            #bathroom-hacks h2 {
-                text-align: center;
-                margin-top: 70px;
-                margin-bottom: 20px;
-                border: solid black;
-                border-radius: 10px;
-                
-            }
-        
-            #bathroom-hacks p {
-                margin-top: 5px;
-                margin-bottom: 50px;
-                border: solid black;
-            }
-        
-            /* Bedroom hacks */
-        
-            #bedroom-hacks {
-                padding-top: 80px;
-            }
-        
-            .bedroom-row-one {
-                width: 100%;
-                padding: 0px 20px 0px 25px;
-                text-align: center;
-            }
-        
-            #bedroom-hacks h2 {
-                text-align: center;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                border: solid black;
-                border-radius: 10px;
-                
-            }
-        
-            #bedroom-hacks p {
-                margin-top: 5px;
-                margin-bottom: 30px;
-                border: solid black;
-            }
+           
         
                   /* form */
         
