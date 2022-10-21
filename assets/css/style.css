@@ -13,21 +13,41 @@ body {
 }
 
 /* Heading and logo*/
- 
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
- h1, h2 {
-   font-family: nato, sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   font-size: 180%;
-   text-align: center;
-   color: #252525; 
+/*Flex*/
+
+#menu {
+    display: flex;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    white-space: nowrap;
 }
 
 #logo {
-     float: left;
-    font-size: 250%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1,
+h2 {
+    font-family: nato, sans-serif;
+    text-transform: uppercase;
+    font-size: 180%;
+    text-align: center;
+    color: #252525;
+}
+
+#logo {
+    font-size: 200%;
     margin-left: 30px;
 }
 
@@ -35,22 +55,24 @@ body {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+   
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
 
 #menu li {
-    float: right;
+
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 10px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
 #menu a:hover {
@@ -64,198 +86,203 @@ body {
 /* hero image*/
 
 #hero-outer {
-    height: 600px; 
+    height: 600px;
     width: 100%;
     overflow: hidden;
-}
-
-
-
-#hero-image {
-    height: 600px; 
-    width: 55%;
     background-image: url("../images/hero-image.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 
-    /* Text besides the hero image*/
-    #cover-text {
-        font-size: 130%;
-        font-family: nato, sans-serif;
-        letter-spacing: 3px;
 
-        width: 450px;
-        height: 300px;
 
-        padding-top: 40px;
-        padding-left: 30px;
+/* Text besides the hero image*/
+#cover-text {
+    font-size: 130%;
+    font-family: nato, sans-serif;
+    letter-spacing: 3px;
 
-        background-color: rgb(167, 221, 242);
+    width: 450px;
+    height: 300px;
 
-        bottom: 220px;
-        right: 90px;
+    padding-top: 40px;
+    padding-left: 30px;
 
-        position: absolute;
-    }
+    background-color: rgb(167, 221, 242);
 
-            /* submit button*/
+    bottom: 220px;
+    right: 5%;
 
-            #button {
-                margin-top: 80px;
-                margin-left: -280px;
-                border-radius: 14px;
-                padding: 15px 30px ;
-                position: absolute;
-               
-                font-size: 100%;
-                background-color: #0aa92f;
-                color: #fafafa;
-                
-            }
+    position: absolute;
+}
 
-            /*hacks*/
+/* submit button*/
 
-            .flex-div > div {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                
-            }
+#button {
+    margin-top: 80px;
+    margin-left: -280px;
+    border-radius: 14px;
+    padding: 15px 30px;
+    position: absolute;
 
-            
-            /*hacks*/
-            .hacks {
-                padding-top: 80px;
-            }
-        
-            .row-one {
+    font-size: 100%;
+    background-color: #0aa92f;
+    color: #fafafa;
+
+}
+
+/*hacks*/
+
+
+.flex-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+
+/*hacks*/
+.hacks {
+    margin-bottom: 2%;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.hacks img {
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+/* .row-one {
                 width: 100%;
                 
             }
-        
-            .hacks-h2 {
-                text-align: center;
-                margin-bottom: 15px;
-                border: solid black;
-                border-radius: 10px;
-                
-            }
-        
-
-            .hacks-p {
-                height: auto;
-                width: 54%;
-                margin-top: 5px;
-                margin-bottom: 50px;
-                border: solid black;
-            }
-        
-           
-        
-                  /* form */
-        
-               #get-in-touch {
-                text-align: center;
-                
-               }
-        
-                    .form {
-                        width: 500px;
-                        height: 450px;
-                        margin-top: 0px;
-                        padding-left: 10px;
-                        color: #fafafa;
-                        bottom: 100px;
-                        right: 100px;
-                        background-color: rgb(84, 84, 84);
-        
-                        position: absolute;
-                     }
-        
-                     form h2{
-                        margin-bottom: 20px;
-                        color: #ffff;
-                     }
-        
-        
-                    .text-input {
-                        background: transparent;
-                        color: #fafafa;
-                        width: 90%;
-                        height: 25px;
-                        margin: 5px 0 20px 0;
-                        border: 2px solid #fafafa;
-                        border-radius: 10px;
-                        font-size: 15px;
-                    }
+         */
+.hacks-h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    border: solid black;
+    border-radius: 10px;
+}
 
 
-        /*footer*/
+.hacks-p {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border: solid black;
+    height: 15vh;
+}
 
-        footer {
-            height: 100%;
-        }
-        
-        .social-networks {
-            text-align: center;
-        }
-        
-        .social-networks > li {
-            display: inline;
-        }
-        
-        .social-networks i {
-            font-size: 160%;
-            margin: 1%;
-            padding: 5%;
-            color: #3a3a3a;
-        }
 
-      
-        /* Media queries*/
 
-        @media screen and (max-width: 1200px) {
-            .hacks-div {
-                width: 65%;
-                height: 1200px;
-                margin: 0 auto;
-            }
-            
-            .bathroom-row-one, .bedroom-row-one, .row-one {
-                padding: 10px 0;
-                margin: 10px 50px 20px 60px;
-                
-            }
-        }
+/* form */
 
-       /* @media screen and (max-width: 1390px) {
+#get-in-touch {
+    text-align: center;
 
-            #hacks-div {
-                clear: both;
-                line-height: 0;
-            }
-            
-            #hacks-div > img {
-                max-width: 30%;
-            }
-        } */
+}
 
-        /*Medium size screen 950px*/
-        
-        @media screen and (max-width: 950px) {
-            #menu {
-                clear: left;
-                margin-left: 30px;
-                margin-bottom: 20px;
-                line-height: 25px;
-            }
-            
-        }
-        
-            
-       
-         
-        
+.form {
+    width: 500px;
+    height: 450px;
+    margin-top: 0px;
+    padding-left: 10px;
+    color: #fafafa;
+    bottom: 100px;
+    right: 5%;
+    background-color: rgb(84, 84, 84);
+
+    position: absolute;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 90%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+/*footer*/
+
+footer {
+    height: 100%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+/* Media queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+ 
+    .flex-div {
+        grid-template-columns: 1fr;
+     
+    }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (max-width: 992px) {
+    .flex-div {
+        grid-template-columns: 1fr 1fr;
+    } 
+    
+}
+
+/*  small devices (phones, 768px and down) */
+@media screen and (max-width: 768px) {
+    .flex-div {
+        grid-template-columns: 1fr;
+     
+    }
+
+    .hacks{
+        margin: 20px auto;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+  #cover-text{
+    width: 300px;
+  }
+
+  .form{
+    width: 300px;
+  }
+    
+}
+
