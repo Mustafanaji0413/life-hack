@@ -17,7 +17,7 @@ The Life Hack users will be able to find alot if tips and tricks when it comes t
 
 - The navigation clearly shows what the website is about and the name of it. It also clearly shows how to navigate through the diffrent sections. 
 
-<img src="/assets/images/readme-life-hacks.png">
+<img width="1000" alt="readme-life-hacks" src="https://user-images.githubusercontent.com/115544231/197305674-3feb1f78-8456-4b54-95be-360fe80f74cf.png">
 
 - **The Header**
 
