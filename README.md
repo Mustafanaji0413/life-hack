@@ -107,7 +107,7 @@ The Life Hack users will be able to find alot if tips and tricks when it comes t
 - Select the "Main" option
 - Press save and a link is giving to me to complete the website. 
 
-The live link can be found here. 
+The live link can be found here. <a href="https://mustafanaji0413.github.io/life-hack/index.html">Life Hacks</a>
 
 ## Credits
 **Content**
