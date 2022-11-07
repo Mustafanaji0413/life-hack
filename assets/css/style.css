@@ -56,10 +56,11 @@ h2 {
 
 #menu {
     font-size: 110%;
-   
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -239,10 +240,10 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
- 
+
     .flex-div {
         grid-template-columns: 1fr;
-     
+
     }
 }
 
@@ -250,32 +251,31 @@ footer {
 @media only screen and (max-width: 992px) {
     .flex-div {
         grid-template-columns: 1fr 1fr;
-    } 
-    
+    }
+
 }
 
 /*  small devices (phones, 768px and down) */
 @media screen and (max-width: 768px) {
     .flex-div {
         grid-template-columns: 1fr;
-     
+
     }
 
-    .hacks{
+    .hacks {
         margin: 20px auto;
     }
 
-    header{
+    header {
         flex-direction: column;
     }
 
-  #cover-text{
-    width: 300px;
-  }
+    #cover-text {
+        width: 300px;
+    }
 
-  .form{
-    width: 300px;
-  }
-    
+    .form {
+        width: 300px;
+    }
+
 }
-
