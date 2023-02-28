@@ -218,6 +218,7 @@ form h2 {
 
 footer {
     height: 100%;
+    flex-grow: 1;
 }
 
 .social-networks {
