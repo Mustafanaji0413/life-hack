@@ -246,6 +246,19 @@ footer {
     background-color: #0cba83;
 }
 
+
+/* Success Page */
+
+.success {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.sumbit-form{
+    font-size: large;
+}
+
+
 /* Media queries*/
 
 /* Extra small devices (phones, 600px and down) */
