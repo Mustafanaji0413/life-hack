@@ -107,7 +107,7 @@ h2 {
     font-family: nato, sans-serif;
     letter-spacing: 3px;
 
-    width: 450px;
+    width: 50%;
     height: 300px;
 
     padding-top: 40px;
@@ -115,8 +115,8 @@ h2 {
 
     background-color: rgb(167, 221, 242);
 
-    bottom: 220px;
-    right: 5%;
+    top: 85%;
+    left: 25%;
 
     position: absolute;
 }
@@ -221,10 +221,12 @@ form h2 {
 footer {
     height: 100%;
     flex-grow: 1;
+    margin-top: 10%;
 }
 
 .social-networks {
     text-align: center;
+    margin-top: 20%;
 }
 
 .social-networks>li {
@@ -260,6 +262,10 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
+    .footer {
+        margin-top: 40%;
+    }
+
 }
 
 /*  small devices (phones, 768px and down) */
@@ -285,4 +291,11 @@ footer {
         width: 300px;
     }
 
+    #cover-text{
+        margin-top: 12%;
+    }
+
+    .footer {
+        margin-top: 55%;
+    }
 }
