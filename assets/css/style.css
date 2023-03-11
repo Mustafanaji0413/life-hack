@@ -124,11 +124,11 @@ h2 {
 /* submit button*/
 
 #button {
-    margin-top: 80px;
-    margin-left: -280px;
+    margin-top: 20px;
+    margin-left: 40%;
     border-radius: 14px;
     padding: 15px 30px;
-    position: absolute;
+    position: relative;
 
     font-size: 100%;
     background-color: #0aa92f;
@@ -186,16 +186,14 @@ h2 {
 }
 
 .form {
-    width: 500px;
+    width: 60%;
     height: 450px;
     margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 10%;
     padding-left: 10px;
     color: #fafafa;
-    bottom: 100px;
-    right: 5%;
     background-color: rgb(84, 84, 84);
-
-    position: absolute;
 }
 
 form h2 {
@@ -207,7 +205,7 @@ form h2 {
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 90%;
+    width: 95%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 2px solid #fafafa;
@@ -221,12 +219,12 @@ form h2 {
 footer {
     height: 100%;
     flex-grow: 1;
-    margin-top: 10%;
+    margin-top: 29%;
 }
 
 .social-networks {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .social-networks>li {
@@ -240,6 +238,9 @@ footer {
     color: #3a3a3a;
 }
 
+.footer-git {
+    margin-top: 0%;
+}
 
 .back-color {
     background-color: #0cba83;
@@ -297,5 +298,9 @@ footer {
 
     .footer {
         margin-top: 55%;
+    }
+
+    .footer-git {
+        margin-top: 0%;
     }
 }
