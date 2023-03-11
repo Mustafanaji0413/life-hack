@@ -4,7 +4,7 @@ The Life Hacks webiste is a website for idividulas that are aiming to make their
 
 The Life Hack users will be able to find alot if tips and tricks when it comes to bathroom, bedroom and kitchen hacks. They can also find us on social media along with a form that the can fill out id they want us to get in touch with them. 
 
-<img width="800" alt="readme-life-hacks" src="https://user-images.githubusercontent.com/115544231/197305674-3feb1f78-8456-4b54-95be-360fe80f74cf.png">
+<img width="800" alt="Screenshot 2023-03-11 at 15 56 49" src="https://user-images.githubusercontent.com/115544231/224491492-3b483aca-5898-40a0-b327-86819b9a342c.png">
 
 ## Featured 
 
@@ -27,13 +27,17 @@ The Life Hack users will be able to find alot if tips and tricks when it comes t
 
 <img width="800" alt="Screenshot 2022-10-22 at 01 58 52" src="https://user-images.githubusercontent.com/115544231/197306450-bcc763df-6d0d-4d16-b248-8fafa36ed010.png">
 
+<img width="800" alt="Screenshot 2023-03-11 at 15 57 57" src="https://user-images.githubusercontent.com/115544231/224491556-e27d31d3-2dc1-4907-961c-b2039caedc5f.png">
+
 ### Get In Touch Section
 
 -The get in touch questions lets the user fill out a form so that the company can reach out to them. 
 
 - The form asks the user for their first name, last name, email and a message box to write the their question. 
 
-<img width="800" alt="Screenshot 2022-10-22 at 01 55 53" src="https://user-images.githubusercontent.com/115544231/197306301-f4e8a677-143b-4357-a0d7-276fccfeb758.png">
+<img width="800" alt="Screenshot 2023-03-11 at 16 00 26" src="https://user-images.githubusercontent.com/115544231/224491695-ef90fafd-da1a-49ff-a0dc-928c2e17c7ca.png">
+
+<img width="800" alt="Screenshot 2023-03-11 at 16 04 29" src="https://user-images.githubusercontent.com/115544231/224491869-c16f214a-21e5-477f-9b07-961f54289207.png">
 
 ### The Hacks Section
 
@@ -46,6 +50,15 @@ The Life Hack users will be able to find alot if tips and tricks when it comes t
 - Every time the page moves on to a diffrent hacks catagory the page displays a healine showing the catagory of the upcomning hacks. 
 
 <img width="800" alt="Screenshot 2022-10-22 at 01 53 25" src="https://user-images.githubusercontent.com/115544231/197306157-7154a884-cd0b-48ed-a18b-4aade4fdad05.png">
+
+
+### Success Page
+
+- After submitting the form the user is redriected to a success page that thanks the user for submitting the form.
+- The success page also conatins a button that redirect the user to the home page
+
+<img width="800" alt="Screenshot 2023-03-11 at 16 03 26" src="https://user-images.githubusercontent.com/115544231/224491829-9fcd3cb8-fa3b-477f-b2cd-f92f10c39bf8.png">
+
 
 
 ### The Footer
