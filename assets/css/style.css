@@ -14,6 +14,13 @@ body {
     color: #3a3a3a;
 }
 
+
+/**/
+
+
+
+/**/
+
 /* Heading and logo*/
 
 header {
@@ -180,11 +187,11 @@ h2 {
 
 /* form */
 
-#get-in-touch {
-    text-align: center;
-
+#get-in-touch img {
+    max-width: 100%;
+    height: auto;
 }
-
+  
 .form {
     width: 60%;
     height: 450px;
@@ -257,6 +264,8 @@ footer {
 .sumbit-form{
     font-size: large;
 }
+
+
 
 
 /* Media queries*/
