@@ -15,12 +15,6 @@ body {
 }
 
 
-/**/
-
-
-
-/**/
-
 /* Heading and logo*/
 
 header {
@@ -315,7 +309,7 @@ footer {
     }
 
     #cover-text{
-        margin-top: 12%;
+        margin-top: 0%;
     }
 
     .footer {
@@ -325,4 +319,46 @@ footer {
     .footer-git {
         margin-top: 0%;
     }
+}
+
+
+
+@media (max-width: 1240px) {
+
+    .footer {
+        margin-top: 40%;
+    }
+
+}
+
+@media (max-width: 945px) {
+
+    .footer {
+        margin-top: 50%;
+    }
+
+}
+
+@media (max-width: 762px) {
+
+    .footer {
+        margin-top: 60%;
+    }
+
+}
+
+@media (max-width: 526px) {
+
+    .footer {
+        margin-top: 75%;
+    }
+
+}
+
+@media (max-width: 443px) {
+
+    .footer {
+        margin-top: 105%;
+    }
+
 }
